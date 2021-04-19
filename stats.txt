@@ -1,0 +1,9 @@
+Namn: Jeff
+Styrka: 12
+Smidighet: 8
+Kondition: 10
+Viljekraft: 7
+Intelligens: 5
+Psyke: 6
+Karisma: 4
+Tur: 9 

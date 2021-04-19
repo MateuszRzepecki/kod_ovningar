@@ -1,0 +1,10 @@
+1.Definiera en funktion
+Fråga användaren om vad det är de söker från txt-filen
+Kollar genom texten och printar ut värdet 
+
+om det man söker inte finns så ska koden medela att 
+användarens input saknas i txt filen. 
+------------------------------------------------
+
+2. Färdigheter/Skills
+ 
