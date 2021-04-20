@@ -7,7 +7,7 @@ def search_function():
     lines = txt.readlines()
     for line in lines:
         if question in line:
-            print(line.strip()[-2:])
+            print(line.strip())
             break
 
 search_function()

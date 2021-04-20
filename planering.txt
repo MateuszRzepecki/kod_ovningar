@@ -4,7 +4,8 @@ Klart - Definiera en funktion
         Koden kollar genom texten och printar ut rätt input. 
 
 Att göra - om det man söker inte finns så ska koden medela att 
-           användarens input saknas i txt filen. 
+           användarens input saknas i txt filen. Specialtecken och
+           nummer ska inte kunna sökas. 
 
 Problem:
 1. Om man söker efter namnet så visas inte hela namnet nämligen "Jeff".
