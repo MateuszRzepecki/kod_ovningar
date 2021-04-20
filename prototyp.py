@@ -8,6 +8,7 @@ def search_function():
     for line in lines:
         if question in line:
             print(line.strip())
+            txt.close()
             break
 
 search_function()

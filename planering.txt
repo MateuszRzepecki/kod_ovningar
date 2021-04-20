@@ -8,8 +8,7 @@ Att göra - om det man söker inte finns så ska koden medela att
            nummer ska inte kunna sökas. 
 
 Problem:
-1. Om man söker efter namnet så visas inte hela namnet nämligen "Jeff".
-2. Om jag lägger till en if-sats för vad som ska hända när det man söker 
+1. Om jag lägger till en if-sats för vad som ska hända när det man söker 
    saknas i texten, den anropas även när "frågan" finns i texten.  
 
 ------------------------------------------------
