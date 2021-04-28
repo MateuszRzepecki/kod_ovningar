@@ -10,5 +10,5 @@ def search_function():
             print(line.strip())
             txt.close()
             break
-
+# Loopen letar efter användarens input i textfilen och om den hittas så printas den 
 search_function()
