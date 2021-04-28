@@ -1,7 +1,7 @@
 def search_function():
     # Definierar funktionen
     txt = open("stats.txt", "rt")
-    # Öppnar text-filen
+    # Öppnar text-filen 
     question = input("Vad söker du efter?:")
     # Skapar en input som frågar användaren om det de söker
     lines = txt.readlines()
@@ -10,5 +10,10 @@ def search_function():
             print(line.strip())
             txt.close()
             break
+        if question not in line:
+            print(str(question) + " " + "saknas.")
+            txt.close()
+            break
 # Loopen letar efter användarens input i textfilen och om den hittas så printas den 
 search_function()
+# Startar funktionen
