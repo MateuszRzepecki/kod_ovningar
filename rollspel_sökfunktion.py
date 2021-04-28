@@ -1,5 +1,5 @@
 def search_function():
-     # Definierar funktionen
+    # Definierar funktionen
     txt = open("stats.txt", "rt")
     # Öppnar text-filen
     question = input("Vad söker du efter?:")
