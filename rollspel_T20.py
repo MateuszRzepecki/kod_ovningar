@@ -27,7 +27,7 @@ def T20_function():
     nr17 = str(result.count(17))
     nr18 = str(result.count(18))
     nr19 = str(result.count(19))
-    nr20 = str(result.count(10))
+    nr20 = str(result.count(20))
     print("Ett:" + nr1 + " " + "Två:" + nr2 + " " + "Tre:" + nr3 +
           " " + "Fyra:" + nr4 + " " + "Fem:" + nr5 + " " + "Sex:" + nr6 + " " + "Sju:" + nr7 + " " + "Åtta:" + nr8 + " " + "Nio:" + nr9 + " " + "Tio:" + nr10 + " " + "Elva:" + nr11 + " " + "Tolv:" + nr12 + " " + "Tretton:" + nr13 + " " + "Fjorton:" + nr14 + " " +
           "Femton:" + nr15 + " " + "Sexton:" + nr16 + " " + "Sjutton:" + nr17 + " " + "Arton:" + nr18 + " " + "Nitton:" + nr19 + " " + "Tjugo:" + nr20)
