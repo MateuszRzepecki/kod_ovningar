@@ -3,10 +3,6 @@ Klart - Definiera en funktion
         Användaren skriver in sin input.
         Koden kollar genom texten och printar ut rätt input. 
 
-Att göra - om det man söker inte finns så ska koden medela att 
-           användarens input saknas i txt filen. Specialtecken och
-           nummer ska inte kunna sökas. 
-
 Problem:
 1. Om jag lägger till en if-sats för vad som ska hända när det man söker 
    saknas i texten, den anropas även när "frågan" finns i texten.  
