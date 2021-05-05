@@ -1,22 +1,34 @@
 import random
-# Importerar en modul 
+# Importerar en modulen random 
 
-def T20_roll():
+def dice_roll():
 # Definierar funktion
     txt = open("stats.txt", "rt")
+    # Öppnar textfilen
+    dice_sides = input("How many sides does your dice have?:")
+    # Låter användaren välja den maxiala antal sidor som tärningen har
     question = input("Compare?:")
+    # Här bestäms vilken stat som ska gemföras med tärningen
     l = len(question)
-    result = []
-    roll_20 = result.append(random.randint(1, 20)) 
+    roll_20 = random.randint(1, int(dice_sides)) 
     lines = txt.readlines()
+    # Variabler 
     for line in lines:
         if question in line:
-            print(line[l+1:100])
-    for x in range(1):
-        roll_20
-        print("You got:" + " " + str(result))
+            print("Your stat:" + line[l+1:100])
+            # Om det man söker finns så printas talet 
+    print("You rolled:" + " " + str(roll_20))
+    #if roll_20 >= int(line[l+1:100]):
         #print("You did it!")
+    #if roll_20 < :
+        #print("You failed.")
+    if roll_20 == int(1):
+        print("Your action was executed perfectly!")
+    if roll_20 == dice_sides:
+        print("Your action ")
+
         
  
     txt.close()
-T20_roll()
+    # stänger textfilen
+dice_roll()
