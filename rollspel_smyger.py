@@ -11,8 +11,7 @@ def dice_roll():
     # Här bestäms vilken stat som ska gemföras med tärningen
     l = len(question)
     roll_20 = random.randint(1, int(dice_sides)) 
-    lines = txt.readlines()
-    # Variabler 
+    lines = txt.readlines() 
     for line in lines:
         if question in line:
             print("Your stat:" + line[l+1:100])
@@ -20,7 +19,7 @@ def dice_roll():
     print("You rolled:" + " " + str(roll_20))
     #if roll_20 >= int(line[l+1:100]):
         #print("You did it!")
-    #if roll_20 < :
+    #if roll_20 < line[l+1:100]:
         #print("You failed.")
     if roll_20 == int(1):
         print("Your action was executed perfectly!")
