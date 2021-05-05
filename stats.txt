@@ -11,7 +11,9 @@ Charisma: 4
 Luck: 9 
 
 Skills:
-Swimming: 21
-Cooking: 36
-Archeology: 20
+Sneak: 18
+Alchemy: 11
+Swimming: 15
+Cooking: 5
+Archeology: 5
 
