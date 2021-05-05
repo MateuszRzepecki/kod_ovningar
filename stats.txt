@@ -1,17 +1,17 @@
-Namn: Jeff
+Name: Jeff
 
-Attribut:
-Styrka: 12
-Smidighet: 8
-Kondition: 10
-Viljekraft: 7
-Intelligens: 5
-Psyke: 6
-Karisma: 4
-Tur: 9 
+Attributes:
+Strength: 12
+Agility: 8
+Stamina: 10
+Willpower: 7
+Intelligence: 5
+Psyche: 6
+Charisma: 4
+Luck: 9 
 
-Färdigheter:
-Simmning: 21
-Matlagning: 36
-Arkeologi: 20
+Skills:
+Swimming: 21
+Cooking: 36
+Archeology: 20
 
