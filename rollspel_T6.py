@@ -6,7 +6,7 @@ def T6_function():
     # Definierar funktionen
     result = []
     # Skapar en tom variabel som är en lista
-    for x in range(1000):
+    for x in range(1):
         result.append(random.randint(1, 6))
     nr1 = str(result.count(1))
     nr2 = str(result.count(2))
