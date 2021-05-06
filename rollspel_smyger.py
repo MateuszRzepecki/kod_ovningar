@@ -15,9 +15,9 @@ def dice_roll():
     for line in lines:
         if question in line:
             print("Your stat:" + line[l+1:100])
-    #q = []
-    #t = q.extend(line[l+1:100])
             # En loop genom texten, om attributen/färdigheten man söker finns så printas talet för den
+    q = []
+    t = q.extend(line[l+1:100])
     print("You rolled:" + " " + str(roll_20))
     #if roll_20 >= int(q):
         #print("You did it!")
