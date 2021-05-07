@@ -1,9 +1,10 @@
 1. funktion slår T20 done
 2.a den ska gemföra med Smidighet done
 2.b måste göra om värden till int done
+3. om T20 > eller = smidighet, lyckat done
+4. om T20 < smidighet, fail done
 5. om T20 = 1, perfekt done
 6. om T20 = 20, poorly done
+-----------------------------------------------------------------------
 
-3. om T20 > eller = smidighet, lyckat
-4. om T20 < smidighet, fail
 
