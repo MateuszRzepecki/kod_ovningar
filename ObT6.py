@@ -1,8 +1,8 @@
 import random
-# Importerar modulen random 
+# Importerar random modulen
 
-def dice_roll():
-# Definierar funktion
+def ObT6():
+    # Definierar funktion
     txt = open("stats.txt", "rt")
     # Öppnar textfilen
     dice_max = input("How many sides does your dice have?:")
@@ -23,17 +23,9 @@ def dice_roll():
             # En loop genom texten, om attributen/färdigheten man söker finns så printas talet
             print("You rolled:" + " " + str(roll))
             # printar ut talet man har fått från slaget
-    if roll > int(stat_comp):
-        print("You did it!")
-    if roll < int(stat_comp):
-        print("You failed...")
-    if int(stat_comp) == 1:
-        print("Your action was executed perfectly!")
-    if int(stat_comp) == int(dice_max):
-        print("Your action almost failed...")
-    # If satser som syftar på att beskriva olika fall där värdet från kastet och attribut/färdighet gemförs
-        
- 
-    txt.close()
-    # stänger textfilen
-dice_roll()
+  
+
+
+          
+
+ObT6()

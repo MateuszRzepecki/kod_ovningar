@@ -11,7 +11,7 @@ Charisma: 4
 Luck: 9 
 
 Skills:
-Sneak: 20
+Stealth: 20
 Alchemy: 11
 Swimming: 15
 Cooking: 5
