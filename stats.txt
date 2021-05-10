@@ -16,3 +16,6 @@ Alchemy: 11
 Swimming: 15
 Cooking: 5
 Archeology: 5
+
+**note**
+koden fungerar för både attributes och skills. 

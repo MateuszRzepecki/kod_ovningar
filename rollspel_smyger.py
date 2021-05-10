@@ -7,7 +7,7 @@ def dice_roll():
     # Öppnar textfilen
     dice_max = input("How many sides does your dice have?:")
     # Låter användaren välja det maximala antal sidor som tärningen har
-    stat_q = input("What stat are you looking for?:")
+    stat_q = input("Which stat do you want to test?:")
     # Här bestäms vilken attribut/färdighet som ska gemföras med tärningens slag
     l = len(stat_q)
     # len() räknar antalet objekt i en lista, se line 20
