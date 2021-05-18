@@ -24,7 +24,15 @@ def ObT6():
             print("You rolled:" + " " + str(roll))
             # printar ut talet man har fått från slaget
 
-    
+    roll_history = []
+    T6_1 = random.randint(1, 6)
+    T6_2 = random.randint(1, 6)
+    if roll == 6:
+        roll_history.append(roll)
+    if T6_1 or T6_2 == 6:
+        roll_history.append(6)
+    else:
+        print("ObT6 final result" + str(roll_history)) 
     
 
 
