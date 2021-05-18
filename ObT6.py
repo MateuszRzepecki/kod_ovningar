@@ -15,15 +15,7 @@ def ObT6():
     # Variabel som fungerar som tärningen
     lines = txt.readlines()
     # Läser textfilen
-    for line in lines:
-        if stat_q in line:
-            stat_comp = line[l+1:100]
-            # Här används len(stat_q) för att få bort början på linjen med frågan
-            print("Your stat:" + str(stat_comp))
-            # En loop genom texten, om attributen/färdigheten man söker finns så printas talet
-            print("You rolled:" + " " + str(roll))
-            # printar ut talet man har fått från slaget
-  
+
 
 
           

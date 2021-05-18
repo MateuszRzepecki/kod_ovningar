@@ -1,1 +1,13 @@
 planering ObT6
+
+roll T6 dice
+    if roll == 6: 
+        reroll with two T6 dices
+        if T6_1 or T6_2 == 6:
+        repeat
+
+roll_history = []
+roll_history.append(all dice roll numbers)
+
+if ObT6 is done:
+    sum() roll numbers and print()
