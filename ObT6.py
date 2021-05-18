@@ -27,5 +27,5 @@ def ObT6():
 
 
           
-
+    txt.close()
 ObT6()
