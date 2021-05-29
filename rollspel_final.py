@@ -1,4 +1,5 @@
 import random
+random.seed()
 # Importerar modulen random 
 
 def dice_roll():
