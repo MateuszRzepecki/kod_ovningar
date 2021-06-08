@@ -35,14 +35,15 @@ Definiera funktion:
 
 **Resultat** 
 Förbättrad men fortfarande fel, sexor som uppkommer i listan triggar inte ObT6-funktionen 
-och ObT6 funktionen körs även när någoy av värden av de nya tärningarna inte är sex 
+och ObT6 funktionen körs även när något av värden av de nya tärningarna inte är sex 
 (exempelvis [startvärdet, 4, 2] vilket bör innebära ett stopp men funktionen fortsätter). 
 
 
 
-planering smyga med finess (ObT6) v1.2
+planering smyga med finess (ObT6) v1.2 + räkna snittvärdet
 
 Importera random
+Importera statistics
 seed
 Definiera funktion:
 
