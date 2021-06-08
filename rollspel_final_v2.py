@@ -46,10 +46,10 @@ txt.close()
 # Definierar en annan funktion
 def ObT6():
     # Tom lista fylls på med värden från ObT6-funktionen
-    ObT6_list = []
-    # if sats körs endast om man fick 6 då man har kastat en T6. 
-    if roll == 6 and int(dice_max) == 6:
-        # 
-        for x in range(3):
+    ObT6_list = [] 
+    # For_loop 
+    for x in range(3):
+        # if sats körs endast om man fick 6 då man har kastat en T6.
+        if roll == 6 and int(dice_max) == 6:
             print("bazinga")
 ObT6() 

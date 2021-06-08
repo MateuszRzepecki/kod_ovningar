@@ -5,9 +5,11 @@ Definiera funktionen:
     # Kommentar
     Variabel = tom lista
     # Kommentar
-    Om kastet blir 6 och högsta antalet sidor i tärningen är 6:
+    För variabel x i omfång 3 
         # Kommentar
-        För 
+        Om kastet blir 6 och högsta antalet sidor i tärningen är 6:
+
+        
 
 
 
