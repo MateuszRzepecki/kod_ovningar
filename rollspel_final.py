@@ -1,29 +1,32 @@
-import random
-random.seed()
 # Importerar modulen random 
+import random
+# Skapar en seed för random modulens funktioner
+random.seed()
 
-def dice_roll():
+# Öppnar textfilen
+txt = open("stats.txt", "rt")
+# Låter användaren välja det maximala antal sidor som tärningen har
+dice_max = input("How many sides does your dice have?:")
+# Här bestäms vilken attribut/färdighet som ska gemföras med tärningens slag
+stat_q = input("Which stat do you want to test?:")
+# len() räknar antalet objekt i en lista, kolla for-loopen
+l = len(stat_q)
+# Variabel som fungerar som tärningen
+roll = random.randint(1, int(dice_max))
+# Läser textfilen
+lines = txt.readlines()
+
 # Definierar funktion
-    txt = open("stats.txt", "rt")
-    # Öppnar textfilen
-    dice_max = input("How many sides does your dice have?:")
-    # Låter användaren välja det maximala antal sidor som tärningen har
-    stat_q = input("Which stat do you want to test?:")
-    # Här bestäms vilken attribut/färdighet som ska gemföras med tärningens slag
-    l = len(stat_q)
-    # len() räknar antalet objekt i en lista, se line 20
-    roll = random.randint(1, int(dice_max))
-    # Variabel som fungerar som tärningen
-    lines = txt.readlines()
-    # Läser textfilen
+def dice_roll():
     for line in lines:
         if stat_q in line:
+            # Här används l för att få bort början på linjen med frågan
             stat_comp = line[l+1:100]
-            # Här används len(stat_q) för att få bort början på linjen med frågan
-            print("Your stat:" + str(stat_comp))
             # En loop genom texten, om attributen/färdigheten man söker finns så printas talet
-            print("You rolled:" + " " + str(roll))
+            print("Your stat:" + str(stat_comp))
             # printar ut talet man har fått från slaget
+            print("You rolled:" + " " + str(roll))
+    # If satser som syftar på att beskriva olika fall där värdet från kastet och attribut/färdighet gemförs     
     if roll > int(stat_comp):
         print("You did it!")
     if roll < int(stat_comp):
@@ -32,9 +35,8 @@ def dice_roll():
         print("Your action was executed perfectly!")
     if int(stat_comp) == int(dice_max):
         print("Your action almost failed...")
-    # If satser som syftar på att beskriva olika fall där värdet från kastet och attribut/färdighet gemförs
         
- 
-    txt.close()
-    # stänger textfilen
 dice_roll()
+
+# stänger textfilen
+txt.close()
