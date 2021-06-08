@@ -14,12 +14,21 @@ lines = txt.readlines()
 
 # Definierar en annan funktion
 def ObT6():
+    # här bestäms antalet gånger ObT6 kommer köras som högst
     times = input("How many times do you wish ObT6 to be executed at most?:")
-    # variabel för talet av slaget med T6
+    # variabel för en while-loop
     i = 0
-    # Tom lista fylls på med värden från ObT6-funktionen
+    # start värdet, den första 6:an
+    start_value = 6
+    # lista, den här fylls på med värden från ObT6-funktionen
     ObT6_list = []
     while roll == 6 and int(dice_max) == 6 and i < int(times):
+        ObT6_list.append(random.randint(1, 6))
+        #for x in range(2):
+            #ObT6_list.append(random.randint(1, 6))
+        i = i + 1
+        print(ObT6_list)
+        print(sum(ObT6_list))
 
 
 

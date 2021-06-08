@@ -1,0 +1,28 @@
+planering smyga med finess (ObT6) v1.0
+
+Defineira funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    i = 0
+    list = tom lista
+    när kastet blir 6 OCH högsta antalet sidor är 6 OCH i < 3:
+        lägg till T6 i listan
+        addera 1 till i
+        skriv ut listan 
+        srkiv ut listan där alla värden har adderats
+
+**Resultat**
+Fel, första nummret i listan ska alltid vara 6 och varje gång kastas den om 
+med endast en tärning. 
+
+planering smyga med finess (ObT6) v1.5
+
+
+planering smyga med finess (ObT6) v2.0
+
+
+    
+
+
+
+
+
