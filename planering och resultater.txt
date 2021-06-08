@@ -1,5 +1,7 @@
 planering smyga med finess (ObT6) v1.0
 
+Importera random
+seed
 Defineira funktion:
     Variabel = input om hur många gånger ObT6 ska köras som högst
     i = 0
@@ -18,6 +20,8 @@ med endast en tärning.
 
 planering smyga med finess (ObT6) v1.1
 
+Importera random
+seed
 Definiera funktion:
     Variabel = input om hur många gånger ObT6 ska köras som högst
     i = 0
@@ -38,7 +42,11 @@ och ObT6 funktionen körs även när någoy av värden av de nya tärningarna in
 
 planering smyga med finess (ObT6) v1.2
 
+Importera random
+seed
+Definiera funktion:
 
+**Resultat**
     
 
 
