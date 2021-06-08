@@ -1,8 +1,2 @@
 planering ObT6
 
-roll T6 dice
-    if T6 == 6: 
-    run T6 2 times
-else:
-    roll_history = []
-    roll_history.append(sum(T6+T6+T6))
