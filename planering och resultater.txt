@@ -6,7 +6,7 @@ Defineira funktion:
     Variabel = input om hur många gånger ObT6 ska köras som högst
     i = 0
     list = tom lista
-    när kastet blir 6 OCH högsta antalet sidor är 6 OCH i < 3:
+    när kastet blir 6 OCH i < 3:
         lägg till T6 i listan
         addera 1 till i
         skriv ut listan 
@@ -27,7 +27,7 @@ Definiera funktion:
     i = 0
     Variabel som är startvärdet 6 (den första 6:an från första kastet)    
     lista med startvärde 6
-    när kastet blir 6 OCH högsta antalet sidor är 6 OCH i < högsta antalet gånger som ObT6 får köras:
+    när kastet blir 6 OCH i < högsta antalet gånger som ObT6 får köras:
         Kasta två T6 med hjälp av for_loop
         addera 1 till i
         skriv ut listan 
