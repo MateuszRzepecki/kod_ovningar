@@ -6,7 +6,7 @@ import statistics
 random.seed()
 
 # Variabel som fungerar som tärningen
-roll = random.randint(5, 6)
+roll = random.randint(1, 6)
 
 # Definierar en annan funktion
 def ObT6():

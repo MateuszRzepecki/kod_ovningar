@@ -45,10 +45,29 @@ planering smyga med finess (ObT6) v1.2 + räkna snittvärdet
 Importera random
 Importera statistics
 seed
-Definiera funktion:
 
+Definiera funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    Variabel = tom lista
+    i = 0
+    Variabel för specifikt första tärningen, start_roll
+    While-loop då första tärningen är 6 och i < högsta antalet gånger som ObT6 får köras:
+        for-loop kastar 2 tärningar:
+            Variabel för övriga kast, roll
+            Om roll är 6:
+                ändra variabeln i till i - 1          (detta görs ifall en sexa kommer upp för då måste man kasta mer kast än tillåtet, litet kod fusk) 
+            Lägg till roll till den tomma listan
+        ändra variablen i till i + 1                  (ökar så att man uppnår högsta antalet körningar av ObT6)
+        for-loop i range(längden av listan):
+            Om sexor hittas i listan:
+                ta bort sexorna i listan
+        skriv ut listan
+        skriv ut snittvärdet av värden i listan
+    skriv ut det summerade talet för alla nummer i listan, slutresultatet 
+Anropa funktionen
+     
 **Resultat**
-    
+Fungerar så som den bör göra! 
 
 
 
