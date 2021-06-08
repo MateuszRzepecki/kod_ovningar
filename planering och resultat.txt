@@ -1,3 +1,5 @@
+PROTOYP
+--------------------------------------------------------------------
 planering smyga med finess (ObT6) v1.0
 
 Importera random
@@ -15,9 +17,12 @@ Defineira funktion:
 **Resultat**
 Fel, första nummret i listan ska alltid vara 6. varje gång kastas tärningen om 
 med endast en tärning. 
+--------------------------------------------------------------------
 
 
 
+PROTOYP:
+--------------------------------------------------------------------
 planering smyga med finess (ObT6) v1.1
 
 Importera random
@@ -37,10 +42,13 @@ Definiera funktion:
 Förbättrad men fortfarande fel, sexor som uppkommer i listan triggar inte ObT6-funktionen 
 och ObT6 funktionen körs även när något av värden av de nya tärningarna inte är sex 
 (exempelvis [startvärdet, 4, 2] vilket bör innebära ett stopp men funktionen fortsätter). 
+--------------------------------------------------------------------
 
 
 
-planering smyga med finess (ObT6) v1.2 + räkna snittvärdet
+HÄR ÄR DEN FÄRDIGA VERSIONEN
+--------------------------------------------------------------------
+planering smyga med finess (ObT6) v1.2 + räkna snittvärdet 
 
 Importera random
 Importera statistics
@@ -68,8 +76,7 @@ Anropa funktionen
      
 **Resultat**
 Fungerar så som den bör göra! 
-
-
+--------------------------------------------------------------------
 
 
 
