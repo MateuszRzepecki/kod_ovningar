@@ -18,14 +18,13 @@ def ObT6():
     times = input("How many times do you wish ObT6 to be executed at most?:")
     # variabel för en while-loop
     i = 0
-    # start värdet, den första 6:an
+    # startvärdet, den första 6:an
     start_value = 6
-    # lista, den här fylls på med värden från ObT6-funktionen
-    ObT6_list = []
+    # lista, den här fylls på med värden från ObT6-funktionen och innehåller startvärde
+    ObT6_list = [start_value]
     while roll == 6 and int(dice_max) == 6 and i < int(times):
-        ObT6_list.append(random.randint(1, 6))
-        #for x in range(2):
-            #ObT6_list.append(random.randint(1, 6))
+        for x in range(2):
+            ObT6_list.append(random.randint(1, 6))
         i = i + 1
         print(ObT6_list)
         print(sum(ObT6_list))

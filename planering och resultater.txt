@@ -11,10 +11,29 @@ Defineira funktion:
         srkiv ut listan där alla värden har adderats
 
 **Resultat**
-Fel, första nummret i listan ska alltid vara 6 och varje gång kastas den om 
+Fel, första nummret i listan ska alltid vara 6. varje gång kastas tärningen om 
 med endast en tärning. 
 
+
+
 planering smyga med finess (ObT6) v1.5
+
+Definiera funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    i = 0
+    Variabel som är startvärdet 6 (den första 6:an från första kastet)    
+    lista med startvärde 6
+    när kastet blir 6 OCH högsta antalet sidor är 6 OCH i < högsta antalet gånger som ObT6 får köras:
+        Kasta två T6 med hjälp av for_loop
+        addera 1 till i
+        skriv ut listan 
+        srkiv ut listan där alla värden har adderats
+
+**Resultat** 
+Förbättrad men fortfarande fel, sexor som uppkommer i listan triggar inte ObT6-funktionen 
+och ObT6 funktionen körs även när någoy av värden av de nya tärningarna inte är sex 
+(exempelvis [startvärdet, 4, 2] vilket bör innebära ett stopp men funktionen fortsätter). 
+
 
 
 planering smyga med finess (ObT6) v2.0
