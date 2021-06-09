@@ -17,7 +17,7 @@ Definiera funktionen:
     input, fråga användaren vilket skillvärde som ska sökas
     for_loop genom nested_dictoinary
         om input finns i nested_dictoinary
-            variabel = nested_dictoinary.get("värdet")
+            variabel = nested_dictoinary.get("värdet"))
             skriv ut variabeln
             break
 Anropa funktionen
@@ -28,9 +28,30 @@ Fel, när man skriver namnet av skilen får man "None" istället för value för
 
 
 
-PROTOTYP:
+FINAL VERSION:
 --------------------------------------------------------------------
 planering GetSkill-funktion v1.1
 
+Definiera funktionen:
+    nested_dictoinary = {
+        "skill1": {
+            "value": ett nummer
+        },
+        "skill2": {
+            "value": ett nummer    
+        },
+        "skill3": {
+            "value": ett nummer    
+        }  
+    }
+    input, fråga användaren vilket skillvärde som ska sökas
+    for_loop genom nested_dictoinary
+        om input finns i nested_dictoinary
+            variabel = nested_dictoinary.get(string av input))
+            skriv ut meddelande samt variabeln som string
+            break
+Anropa funktionen
+
 **Resultat**
+Fungerar, ser kanske inte väldigt snyggt men den gör sitt arbete snabbt och smidigt.
 --------------------------------------------------------------------
