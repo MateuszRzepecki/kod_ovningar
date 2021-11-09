@@ -1,0 +1,82 @@
+PROTOYP
+--------------------------------------------------------------------
+planering smyga med finess (ObT6) v1.0
+
+Importera random
+seed
+Defineira funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    i = 0
+    list = tom lista
+    när kastet blir 6 OCH i < 3:
+        lägg till T6 i listan
+        addera 1 till i
+        skriv ut listan 
+        srkiv ut listan där alla värden har adderats
+
+**Resultat**
+Fel, första nummret i listan ska alltid vara 6. varje gång kastas tärningen om 
+med endast en tärning. 
+--------------------------------------------------------------------
+
+
+
+PROTOYP:
+--------------------------------------------------------------------
+planering smyga med finess (ObT6) v1.1
+
+Importera random
+seed
+Definiera funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    i = 0
+    Variabel som är startvärdet 6 (den första 6:an från första kastet)    
+    lista med startvärde 6
+    när kastet blir 6 OCH i < högsta antalet gånger som ObT6 får köras:
+        Kasta två T6 med hjälp av for_loop
+        addera 1 till i
+        skriv ut listan 
+        srkiv ut listan där alla värden har adderats
+
+**Resultat** 
+Förbättrad men fortfarande fel, sexor som uppkommer i listan triggar inte ObT6-funktionen 
+och ObT6 funktionen körs även när något av värden av de nya tärningarna inte är sex 
+(exempelvis [startvärdet, 4, 2] vilket bör innebära ett stopp men funktionen fortsätter). 
+--------------------------------------------------------------------
+
+
+
+HÄR ÄR DEN FÄRDIGA VERSIONEN
+--------------------------------------------------------------------
+planering smyga med finess (ObT6) v1.2 + räkna snittvärdet 
+
+Importera random
+Importera statistics
+seed
+
+Definiera funktion:
+    Variabel = input om hur många gånger ObT6 ska köras som högst
+    Variabel = tom lista
+    i = 0
+    Variabel för specifikt första tärningen, start_roll
+    While-loop då första tärningen är 6 och i < högsta antalet gånger som ObT6 får köras:
+        for-loop kastar 2 tärningar:
+            Variabel för övriga kast, roll
+            Om roll är 6:
+                ändra variabeln i till i - 1          (detta görs ifall en sexa kommer upp för då måste man kasta mer kast än tillåtet, litet kod fusk) 
+            Lägg till roll till den tomma listan
+        ändra variablen i till i + 1                  (ökar så att man uppnår högsta antalet körningar av ObT6)
+        for-loop i range(längden av listan):
+            Om sexor hittas i listan:
+                ta bort sexorna i listan
+        skriv ut listan
+        skriv ut snittvärdet av värden i listan
+    skriv ut det summerade talet för alla nummer i listan, slutresultatet 
+Anropa funktionen
+     
+**Resultat**
+Fungerar så som den bör göra! 
+--------------------------------------------------------------------
+
+
+
