@@ -6,5 +6,5 @@ def CharacterCounter():
     for i in text:
         if i == target:
             antal = antal + 1
-    print('Bokstaven ' + (target) + ' finns' ' ' + str(antal) + ' ' 'gånger i texten.')
+    print('Bokstaven ' + str(target) + ' finns ' + str(antal) + ' gånger i texten.')
 CharacterCounter()
