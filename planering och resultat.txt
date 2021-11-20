@@ -77,6 +77,3 @@ Anropa funktionen
 **Resultat**
 Fungerar så som den bör göra! 
 --------------------------------------------------------------------
-
-
-
