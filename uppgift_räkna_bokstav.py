@@ -9,3 +9,4 @@ print('Bokstaven ' + str(target) + ' finns ' + str(amount) + ' gånger i texten.
 
 
 
+
