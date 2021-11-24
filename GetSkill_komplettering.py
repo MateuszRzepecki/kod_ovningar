@@ -14,11 +14,8 @@ def GetSkill():
     }
     # Frågar användaren om skillen vilkens värde ska hittas
     request = input("Which skill value are you looking for?: ")
-    # For-loop kör genom nested dictionary
-    for x in skill_dict:
         # Om det användaren söker hittas i nested dictionary printar den värdet för skillen
-        if request in skill_dict: 
-            skill_value = skill_dict.get(str(request))
-            print("Skill value: " + str(skill_value))
-            break
+    if request in skill_dict: 
+        skill_value = skill_dict.get(str(request))
+        print("Skill value: " + str(skill_value))
 GetSkill()
