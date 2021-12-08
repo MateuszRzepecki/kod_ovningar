@@ -1,7 +1,7 @@
 from math import * 
 
 def f(x): 
-    return 5*cos(x) - (4*x)
+    return sin(x) - exp(-x)
 
 def f_prim(x):
     h = 0.001
@@ -9,8 +9,8 @@ def f_prim(x):
 
 x = 0.5
 
-while abs(f(x)) >= 0.0000001:
-    x = x - f(x)/f_prim(x)
+while abs(f(x)) >= 0.01:
+    x = x - f(x)/x
     print(x)
 
 print("Den sökta roten är x =", x)
