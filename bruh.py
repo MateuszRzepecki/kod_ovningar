@@ -9,12 +9,6 @@ def barn():
     print (antalbarn)
 barn()
 
-m = 0
-summa = 0 
-while m < 179:
-    degree = sin(radians(m))   
-    m = m + 1
-     
-print(degree)
+
 
 
