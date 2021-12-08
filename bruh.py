@@ -1,7 +1,7 @@
 from math import * 
 
 def f(x): 
-    return sin(x) - exp(-x)
+    return sin(x)
 
 def f_prim(x):
     h = 0.001
