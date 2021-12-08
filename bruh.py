@@ -1,16 +1,16 @@
 from math import * 
 
 def f(x): 
-    return sin(x)
+    return (x - sin(x)) / x 
 
 def f_prim(x):
     h = 0.001
     return (f(x + h) - f(x)) / h
 
-x = 0.5
+x = 0.0001
 
-while abs(f(x)) >= 0.01:
-    x = x - f(x)/x
+while abs(f(x)) <= 0.01:
+    x = x - f(x)
     print(x)
 
 print("Den sökta roten är x =", x)
